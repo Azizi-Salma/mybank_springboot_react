@@ -42,13 +42,13 @@ Chaque partie peut être lancée indépendamment (backend sur un port type 8080,
 Si nécessaire, adapter l’URL de l’API backend (baseURL) dans les services Axios (par exemple dans src/services/api.js).
 
 ## 5. Build & production
-   # Backend
+   ## Backend
    - cd mybank
    - mvn clean package
 
 - Le jar généré dans target/ peut être exécuté avec : java -jar target/mybank-0.0.1-SNAPSHOT.jar
 
-   # Frontend
+   ## Frontend
    - cd mybank-front
    - npm run build
 
